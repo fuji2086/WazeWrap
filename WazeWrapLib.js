@@ -589,7 +589,7 @@
                     continue;
 
                 if (ignoreUnnamedPR)
-                    if (segmentType === 17 && WazeWrap.Model.getStreetName(onscreenSegments[s].attributes.primaryStreetID) === null) //PR
+                    if (segmentType === 17 && WazeWrap.Model.getStreetName(onscreenSegments[s].attributes.primaryStreetID) === "") //PR
                         continue;
 
 
